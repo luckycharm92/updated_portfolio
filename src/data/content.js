@@ -28,12 +28,12 @@ export const profile = {
 
 export const about = {
   story:
-    'I am a developer originally from the Cayman Islands, interested in using Artificial Intlligence to develop digital technologies that will have a positive, measurable impact on peoples lives. I became hooked with all things technology, when I built my first gaming PC, and I havent looked back since.',
+    'I am a developer originally from the Cayman Islands, interested in using Artificial Intelligence to develop digital technologies that will have a positive, measurable impact on people’s lives. I became hooked with all things technology, when I built my first gaming PC, and I haven’t looked back since.',
   funFact: 'I have competed for the Cayman Islands National Football Team in 5 different countries',
   tiles: [
     { title: 'Daily drivers', text: 'Python, C, React' },
     { title: 'Currently learning', text: 'how to Row in a Single Sculling Boat' },
-    { title: 'On repeat', text: 'Do you Beleive in Magic - the Lovin Spoonful' },
+    { title: 'On repeat', text: 'Do You Believe in Magic - The Lovin’ Spoonful' },
   ],
 };
 
@@ -45,7 +45,7 @@ export const experience = [
     location: 'London, UK',
     dates: 'June 2026 - August 2026',
     points: [
-      'Engineered a scalable Python data pipeline to ingest, sessionize, and standardize 1,000+ trading workspace logs per query timeframe from time-series databases, establishing a governed framework for global platform telemetry.',
+      'Engineered a scalable Python data pipeline to ingest, sessionise, and standardise 1,000+ trading workspace logs per query timeframe from time-series databases, establishing a governed framework for global platform telemetry.',
     ],
     tags: ['Python', 'InfluxDB', 'Grafana Dashboards'],
   },
@@ -58,7 +58,7 @@ export const experience = [
     points: [
       'Built Python and SQL data pipelines to cleanse, structure, and model raw administrative data, delivering reliable data feeds to power internal analytics tools.'
     ],
-    tags: ['Python]', 'SQL', 'Power BI'],
+    tags: ['Python', 'SQL', 'Power BI'],
   },
 
   {
@@ -68,19 +68,19 @@ export const experience = [
     location: 'Remote',
     dates: 'May 2025 - June 2025',
     points: [
-      'Attended technical seminars hosted by the Engineering division analyzing enterprise software architectures, distributed data pipelines, and high-throughput financial technology systems.'
+      'Attended technical seminars hosted by the Engineering division analysing enterprise software architectures, distributed data pipelines, and high-throughput financial technology systems.'
     ],
     tags: ['Software Engineering', 'Investment Banking', 'Financial Services'],
   },
 
   {
-    role: 'FOCUS Programmme Participant',
+    role: 'FOCUS Programme Participant',
     org: 'Jane Street',
     logo: 'logos/janeStreet.png', // e.g. 'logos/company.png'
     location: 'London, UK',
     dates: 'January 2025 - January 2025',
     points: [
-      'Selected for an immersive technical insight program, completing interactive workshops on functional programming principles, electronic trading systems architecture, and low-latency system design.'
+      'Selected for an immersive technical insight programme, completing interactive workshops on functional programming principles, electronic trading systems architecture, and low-latency system design.'
     ],
     tags: ['Software Engineering', 'Quantitative Trading', 'Sales & Trading'],
   },
@@ -92,7 +92,7 @@ export const experience = [
     location: 'Grand Cayman, Cayman Islands',
     dates: 'June 2024 - August 2024',
     points: [
-      'Developed the full-stack architecture for a multi-island registration portal, designing the frontend UI, building backend data validation logic, and establishing secure database pipelines to optimize data ingestion and enforce integrity.'
+      'Developed the full-stack architecture for a multi-island registration portal, designing the frontend UI, building backend data validation logic, and establishing secure database pipelines to optimise data ingestion and enforce integrity.'
     ],
     tags: ['Apex Oracle', 'HTML', 'CSS'],
   },
@@ -101,7 +101,7 @@ export const experience = [
 export const projects = [
   {
     name: 'HackMIT - Flood and Landslide Prevention Decision Engine',
-    blurb: 'Helped build a decision engine that turns public weather and satellite data into a prevention plan for flood- and landslide-prone Himalayan communities: not a warning, but a plan for where to build natural defenses like floodplain restoration and planting. Used extreme-value statistics on decades of rainfall records to show how extreme storms are shifting, and checked the results against a broader dataset and satellite flood imagery instead of taking them on trust.',
+    blurb: 'Helped build a decision engine that turns public weather and satellite data into a prevention plan for flood- and landslide-prone Himalayan communities: not a warning, but a plan for where to build natural defences like floodplain restoration and planting. Used extreme-value statistics on decades of rainfall records to show how extreme storms are shifting, and checked the results against a broader dataset and satellite flood imagery instead of taking them on trust.',
     stack: ['Python', 'React', 'FastAPI'],
     image: 'projects/mit.png', // e.g. 'project-one.png' in /public
     tint: '#E3E8FF',
@@ -118,7 +118,7 @@ export const projects = [
   },
   {
     name: 'Xv6 Operating System Shell',
-    blurb: 'Implemented a custom C command line shell for the Xv6 kernel, supporting tokenized command parsing, process execution loops, built in directory navigation, and I/O redirection using file descriptors. Handled low-level OS inter-process communication via fork(), exec() and wait() system calls while maintaining strict resource cleanup to prevent file descriptor leaks.',
+    blurb: 'Implemented a custom C command line shell for the Xv6 kernel, supporting tokenised command parsing, process execution loops, built in directory navigation, and I/O redirection using file descriptors. Handled low-level OS inter-process communication via fork(), exec() and wait() system calls while maintaining strict resource cleanup to prevent file descriptor leaks.',
     stack: ['C', 'Systems Programming'],
     image: 'projects/xv6prog.png',
     tint: '#DDF5E8',
@@ -126,9 +126,9 @@ export const projects = [
 
 
   {
-    name: '2nd Year Project -  Flight Booking and Management System',
+    name: '2nd Year Project - Flight Booking and Management System',
     blurb: 'Collaborated to develop a full-stack flight booking system featuring customer booking workflows, staff management tools, and real-time reservation tracking. Developed backend functionality for flight search, booking management, and passenger handling, integrating real-time international pricing via an external Currency API, along with travel points, loyalty features, and automated booking confirmation emails. Designed operational and customer-support features including analytical reporting dashboards, complaint resolution workflows, booking modification tools, and staff utility systems for airport and airplane logistics management.',
-    stack: ['Kotlin', 'SQL', 'External Currency Conversion API '],
+    stack: ['Kotlin', 'SQL', 'External Currency Conversion API'],
     image: 'projects/flyhigh.png',
     tint: '#DDF5E8',
     code: 'https://github.com/luckycharm92/Flight-System-2850-SWE-Project',
@@ -138,14 +138,14 @@ export const projects = [
 export const extracurriculars = [
   {
     name: 'University of Leeds Boat Club (Rowing)',
-    role: 'Womens Beginners Squad Member',
-    dates: '[2026 — Present]',
-    text: '2x Water Sessions, 2x Erg Sessions, 1x Stregnth & Conditioning, 1x Circuit Training',
+    role: 'Women’s Beginners Squad Member',
+    dates: '2026 - Present',
+    text: '2x Water Sessions, 2x Erg Sessions, 1x Strength & Conditioning, 1x Circuit Training',
     sticker: 'new Sport!',
   },
   {
-    name: 'Cayman Islands Womens National Football Team',
-    role: 'Senior Womens National Team Member, Previous U20 Womens National Team Member',
+    name: 'Cayman Islands Women’s National Football Team',
+    role: 'Senior Women’s National Team Member, Previous U20 Women’s National Team Member',
     dates: '2022 - Present',
     text: 'Competed in Curacao, Trinidad and Tobago, the Dominican Republic, Costa Rica and Grenada.',
     sticker: 'footy',
@@ -168,7 +168,7 @@ export const extracurriculars = [
     name: 'Plastic Free Cayman Islands Beach Clean Up',
     role: 'Volunteer',
     dates: '2022 - Present',
-    text: 'Partifipate in various ebach clean ups around the Cayman Islands',
+    text: 'Participate in various beach clean-ups around the Cayman Islands',
     sticker: 'seasonal',
   },
 ];
@@ -178,7 +178,7 @@ export const awards = [
     title: 'Proud of Them Youth Honouree - Academic Excellence',
     issuer: 'Cayman Islands Government Ministry of Youth, Sports & Heritage',
     date: '2026',
-    text: 'Shortlisted as one of 15 youth recognized in the 2026-2027 Cayman Islands Proud of them Awards Programme, for outstanding academic achievement.',
+    text: 'Shortlisted as one of 15 youth recognised in the 2026-2027 Cayman Islands Proud of Them Awards Programme, for outstanding academic achievement.',
   },
   {
     title: 'Cayman Islands Government Scholar',
